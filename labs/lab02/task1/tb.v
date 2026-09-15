@@ -16,7 +16,7 @@ module tb;
     .Y(t_y)
   );
 
- 
+
   string vcd_file;
   initial begin
     if ($value$plusargs("vcd=%s", vcd_file)) begin
